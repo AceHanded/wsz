@@ -1,7 +1,8 @@
 # wsz
 
+[![CI](https://img.shields.io/github/actions/workflow/status/AceHanded/wsz/ci.yml?style=for-the-badge)](https://github.com/AceHanded/wsz/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/AceHanded/wsz?style=for-the-badge)](https://github.com/AceHanded/wsz/blob/main/LICENSE)
-[![Zig Version](https://img.shields.io/badge/zig-0.15.2-yellow?style=for-the-badge&logo=zig)](https://ziglang.org/)
+[![ZigVersion](https://img.shields.io/badge/zig-0.15.2-yellow?style=for-the-badge&logo=zig)](https://ziglang.org/)
 [![GitHubStars](https://img.shields.io/github/stars/AceHanded/wsz?style=for-the-badge&logo=github&labelColor=black)](https://github.com/AceHanded/wsz)
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/acehand)
 
@@ -15,6 +16,12 @@ First, download one of the precompiled binaries from the `Releases` section. Alt
 git clone https://github.com/AceHanded/wsz.git
 cd wsz
 zig build
+```
+
+Or with Docker:
+
+```sh
+docker build -t wsz https://github.com/AceHanded/wsz.git
 ```
 
 After that, a file containing Whitespace code may be run with:

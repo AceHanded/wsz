@@ -1,0 +1,7 @@
+.github/
+.vscode/
+.zig-cache/
+release/
+zig-out/
+examples/
+.gitignore

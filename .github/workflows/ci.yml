@@ -1,0 +1,16 @@
+name: Zig CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Use Zig 0.15.2
+        uses: mlugg/setup-zig@v2
+        with:
+          version: 0.15.2
+      - run: zig build
